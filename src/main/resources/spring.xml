@@ -12,7 +12,11 @@
     </bean>
 
     <bean id="dev1" class="org.example.Dev">
+        <constructor-arg value="14"/>
+        <property name="lp" ref="lap1"/>
+
     </bean>
-    <bean id="laptop" class="org.example.Laptop">
+
+    <bean id="lap1" class="org.example.Laptop">
     </bean>
 </beans>

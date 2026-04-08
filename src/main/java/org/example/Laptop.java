@@ -4,7 +4,7 @@ public class Laptop {
     Laptop() {
         System.out.println("Laptop created");
     }
-    public void build() {
+    public void compile() {
         System.out.println("Laptop build");
     }
 }
