@@ -8,6 +8,11 @@
     <!-- bean definitions here -->
 
     <bean id="dev" class="org.example.Dev">
+        <property name="age" value="12" />
+    </bean>
 
+    <bean id="dev1" class="org.example.Dev">
+    </bean>
+    <bean id="laptop" class="org.example.Laptop">
     </bean>
 </beans>
